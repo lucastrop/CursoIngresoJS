@@ -21,7 +21,9 @@ function Promedio ()
     let precio2=parseFloat(document.getElementById("txtIdPrecioDos").value);
     let precio3=parseFloat(document.getElementById("txtIdPrecioTres").value);	
     let promedio = (precio1 + precio2 + precio3)/3;
+    promedio= promedio.toFixed(2);
     alert ( "El promedio es $ " + promedio);
+    ;
 }
 function PrecioFinal () 
 {
@@ -31,6 +33,8 @@ let precio3=parseFloat(document.getElementById("txtIdPrecioTres").value);
 let suma;
 let preciofinal
 suma= precio1 + precio2 + precio3;
-preciofinal= suma + suma*0.21;
+preciofinal= (suma + suma*0.21);
+preciofinal=preciofinal.toFixed(2);
 alert("El precio final es $ " +preciofinal);
+//Tofixed(cantidad de decimales) redondea el numero a ese numero de decimales
 }
