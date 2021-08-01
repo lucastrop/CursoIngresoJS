@@ -7,7 +7,7 @@ function mostrar()
 	nombreIngresado=document.getElementById("txtIdNombre").value;
 
 	alert(nombreIngresado);
-document.getElementById("txtIdNombre").value="" //para que al cerrar ventana emergente no quede el nombre en la caja
+document.getElementById("txtIdNombre").value=""; //para que al cerrar ventana emergente no quede el nombre en la caja
 
 }
 
