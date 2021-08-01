@@ -8,9 +8,9 @@ function SacarResto()
 	let dividendo;
 	let divisor;
 	let resto;
-	dividendo = parseInt(document.getElementById("txtIdNumeroDividendo").value)
-	divisor = parseInt (document.getElementById ("txtIdNumeroDivisor").value)
-	resto = dividendo%divisor
+	dividendo = parseInt(document.getElementById("txtIdNumeroDividendo").value);
+	divisor = parseInt (document.getElementById ("txtIdNumeroDivisor").value);
+	resto = dividendo%divisor;
 	alert("el resto es " + resto);
 }
 // % = modulo (resto de la división entera)
