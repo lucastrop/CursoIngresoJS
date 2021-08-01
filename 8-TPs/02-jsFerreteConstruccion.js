@@ -35,5 +35,6 @@ ancho=parseInt(document.getElementById("txtIdAncho").value);
 area=largo*ancho;
 cemento=2*area;
 cal=3*area;
-alert("Se necesitan " + cemento + " bolsas de cemento y " + cal + " bolsas de cal.");
+//o alert("Para un contrapiso de " + area + "m2 se necesitan comprar " + cemento + " bolsas de cemento y " + cal + " bolsas de cal.");
+alert (`Para un cotnrapiso de ${area}m2 necesito comprar ${cemento} bolsas de cemento y ${cal} bolsas de cal.`);
 }
