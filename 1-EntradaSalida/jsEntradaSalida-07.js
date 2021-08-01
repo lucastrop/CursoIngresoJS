@@ -54,6 +54,7 @@ function dividir()
 		num2 = parseInt(document.getElementById ("txtIdNumeroDos").value);
 		
 		resultado = num1 / num2;
-		alert("La división es " + resultado);
+		alert("El cociente es " + resultado);
+]//alert typeof para ver si es de tipo string o number
 }
 
