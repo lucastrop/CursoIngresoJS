@@ -16,7 +16,7 @@ case "Invierno":
 	}
 	break; 
 case "Verano": 
-if(destino == "Mar del plata" && destino == "Cataratas"){
+if(destino == "Mar del plata" || destino == "Cataratas"){
 	alert ("Se viaja");
 }
 else {
